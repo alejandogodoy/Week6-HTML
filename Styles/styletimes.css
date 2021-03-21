@@ -1,0 +1,157 @@
+/*GENERAL STYLE*/
+* {
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  text-align: justify;
+  align-content: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.9;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 15px;
+}
+
+em {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 20px;
+}
+
+h2 {
+  padding-bottom: 25px;
+  color: #333;
+}
+
+figcaption{ 
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+small {
+  padding: 20px;
+}
+
+ul, li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+footer {
+  border-top: 1px solid #ebebeb;
+  padding-top: 9px;
+}
+
+/*CONTENT STYLE*/
+
+.row:after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+.column1 {
+  float: left;
+  width: 20%;
+  padding-left: 15px;
+}
+
+.column2 {
+  float: left;
+  width: 60%;
+  padding-left: 15px;
+}
+
+.column3 {
+  display: block;
+  float: left;
+  width: 20%;
+  padding-left: 15px;
+}
+
+.box {
+  border: 3px transparent;
+  margin: 10px;
+}
+
+.boxR {
+  width: 100%;
+  display: block;
+  padding-top: 800px;
+  border: 3px transparent;
+  margin: 10px;
+}
+
+.boxContent {
+  box-sizing: border-box;
+  margin: 0.5rem 20px 1.5rem;
+  padding: 1.25rem;
+  border: 1px solid rgb(226, 226, 226);
+  max-width: 600px;
+}
+
+.center {
+  text-align: justify;
+}
+
+.linkhover {
+  text-decoration: none;
+  color: rgb(73, 73, 73);
+  
+}
+.linkhover:hover {
+  font-weight: bold;
+  color: black;
+}
+
+.pRight {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(226, 226, 226);
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+}
+
+.rightTitle {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.pArticle {
+  width: 100px;
+  height: 70px;
+  display: inline-block;
+  vertical-align: middle;
+}
